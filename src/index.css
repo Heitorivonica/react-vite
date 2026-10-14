@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Cores da Talkbi: para trocar o visual do app inteiro, mude só aqui */
+
+@theme {
+    --color-brand: #4ddc68;
+    --color-brand-hover: #3cc957;
+    --color-brand-dark: #04363d;
+    --color-brand-light: #eafbee;
+}
+
+body {
+    margin: 0;
+    background: #f6faf7;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: #04363d;
+}
